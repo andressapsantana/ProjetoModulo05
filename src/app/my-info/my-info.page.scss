@@ -1,0 +1,18 @@
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+    width: 55%; /* Garante que a imagem ocupe 100% da largura disponível */
+    max-width: 55%; /* Define a largura máxima da div */
+    height: 55h; /* Define a altura da div como 100% da altura da viewport */
+    display: flex; /* Usa flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+  }
+  
+  /* Estilo para a imagem */
+  .imagem-perfil {
+    max-width: 55%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 55%; /* Garante que a imagem não ultrapasse a altura da div */
+    width: auto; /* Mantém a proporção original da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  
